@@ -1,0 +1,102 @@
+.recherche_container {
+    margin: 0;
+    padding: 2rem;
+    width: 15%;
+    z-index: 50;
+    position: absolute;
+    top: 0;
+    background-color: #b52e57;
+    min-height: 100vh;
+}
+
+.navbar-brand {
+    text-align: center;
+    margin-left: auto;
+    margin-right: auto;
+    font-size: 2rem;
+    font-weight: bold;
+}
+
+.navbar-brand,
+.navbar-brand a,
+.recherche_container,
+.recherche_container label,
+.btn_retour,
+.btn_retour:hover {
+    color: white!important;
+}
+
+.float-left {
+    display: flex;
+    flex-direction: column;
+}
+
+.float-left input,
+.float-left,
+.titre_navigation,
+.accordion {
+    width: 100%;
+}
+
+.dropdown-toggle {
+    width: min-content;
+}
+
+.barre_navigation {
+    margin-top: -1.3rem;
+    border-bottom: #b52e57 solid 5px;
+}
+
+.titre_navigation {
+    justify-content: space-around;
+}
+
+.recherche_container label {
+    text-transform: uppercase;
+    font-weight: normal!important;
+}
+
+.card-body,
+.btn-link:hover {
+    color: #b52e57
+}
+
+.album,
+.barre_navigation {
+    width: 85%;
+    margin-left: 15%;
+}
+
+.accordion,
+.recherche_container label {
+    margin-top: 1rem;
+    display: inline-block;
+}
+
+.recherche_btn {
+    margin: 0 auto;
+}
+
+.mgtp {
+    margin-top: 0.5rem!important;
+}
+
+.card-body,
+.recherche_container,
+.barre_navigation,
+.jconfirm-buttons,
+.jconfirm .jconfirm-box div.jconfirm-title-c .jconfirm-title {
+    font-family: "Roboto Condensed", sans-serif;
+}
+
+.btn_retour {
+    top: 0;
+    left: 0;
+    position: absolute;
+    margin-top: .2rem;
+    margin-left: .2rem;
+}
+
+.jconfirm-content div{
+    word-break: break-all;
+}
